@@ -18,20 +18,65 @@ html {
 /*----------------------------------*/
 /* REUSABLE COMPONENTS */
 /*----------------------------------*/
+section {
+    padding: 80px 0;
+}
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
+.box {
+    padding: 1%;
+}
 /*-----HEADINGS---------------------*/
+h1,h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
 h1 {
     margin-top:0;
     margin-bottom: 20px;
-    font-size: 240%;
     letter-spacing: 1px;
+    font-size: 240%;
     word-spacing: 4px;
-    text-transform: uppercase;
-    font-weight: 300;
     color:#fff;
+}
+h2 {
+    margin-bottom: 30px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content:"";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:30px;
+}
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+/*-----PARAGRAPHS---------------------*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/*-----ICONS---------------------*/
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color:#e67e22;
+    margin-bottom: 10px;
 }
 /*-----BUTTONS---------------------*/
 .btn:link,.btn:visited {
